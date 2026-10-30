@@ -1,3 +1,4 @@
+//программа для вычисления квадрата
 #include <iostream>
 #include <string>
 
