@@ -1,7 +1,6 @@
 //программа для вычисления квадрата
 #include <iostream>
 #include <string>
-
 auto square(int x) -> int { return x * x; }
 
 int main() {

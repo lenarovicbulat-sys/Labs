@@ -1,3 +1,4 @@
+#include <clocale>
 #include <iostream>  // Подключаем ввод и вывод
 #include <string>    // Подключаем строки
 using namespace std;
