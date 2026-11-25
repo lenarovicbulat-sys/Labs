@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     double a, b;
     char op;
-    cout << "Введите a: ";
+    cout << "Введите a: ";// ввод чисел и операции
     cin >> a;
     cout << "Введите операцию: ";
     cin >> op;
@@ -24,11 +24,11 @@ int main() {
             if (b != 0) {
                 cout << a / b << "\n";
             } else {
-                cout << "Деление на ноль\n";
+                cout << "Деление на ноль\n";// случай деления на ноль
             }
             break;
         default:
-            cout << "Неизвестная операция\n";
+            cout << "Неизвестная операция\n";// случай неправильного ввода
     }
 
     return 0;
