@@ -19,5 +19,5 @@ else:
     surface = 2 * pi * radius * (radius + height)
 
     # Выводим результаты
-    print("Объём цилиндра:", volume)
-    print("Площадь поверхности:", surface)
+    print("Объём цилиндра:", round(volume))
+    print("Площадь поверхности:", round(surface, 2))

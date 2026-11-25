@@ -27,10 +27,9 @@ int main() {
 
     // Вычисляем площадь полной поверхности цилиндра
     double surface = 2 * pi * radius * (radius + height);
-
     // Выводим результаты
     cout << "Объём цилиндра: " << volume << endl;
-    cout << "Площадь поверхности: " << surface << endl;
+    cout << "Площадь поверхности: " <<surface << endl;
 
     return 0;
 }
